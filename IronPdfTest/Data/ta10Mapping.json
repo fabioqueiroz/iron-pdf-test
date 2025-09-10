@@ -1,0 +1,31 @@
+{
+  "propertyPack.address.line1": {
+    "page": 1,
+    "x": 240,
+    "y": 690
+  },
+  "propertyPack.address.postcode": {
+    "page": 1,
+    "x": 288,
+    "y": 600,
+    "spacing": 15.6
+  },
+  "propertyPack.fixturesAndFittings.basicFittings.internalDoorFittings": {
+    "page": 2,
+    "x": 233,
+    "y": 130,
+    "spacing": 20
+  },
+  "propertyPack.fixturesAndFittings.basicFittings.externalDoorFittings": {
+    "page": 2,
+    "x": 233,
+    "y": 106,
+    "spacing": 20
+  },
+  "propertyPack.fixturesAndFittings.basicFittings.doorbellChime": {
+    "page": 2,
+    "x": 233,
+    "y": 80,
+    "spacing": 20
+  }
+}

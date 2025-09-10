@@ -1,0 +1,347 @@
+{
+  "transactionId": "BCghcwWuVxTe1i2frGZ6tx",
+  "propertyPack": {
+    "address": {
+      "line1": "29A Lushington Road",
+      "line2": "",
+      "line3": "",
+      "town": "London",
+      "postcode": "NW10 5UX"
+    },
+    "fixturesAndFittings": {
+      "basicFittings": {
+        "roofInsulation": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "doorbellChime": {
+          "isIncludedExcludedOrNone": "None"
+        },
+        "electricSockets": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "windowFittings": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "windowShuttersGrilles": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "internalDoorFittings": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "nightStorageHeaters": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "gasFiresWithSurround": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "burglarAlarm": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "freeStandingHeaters": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "lightSwitches": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "boilerImmersionHeater": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "electricFiresWithSurround": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "externalDoorFittings": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "radiatorsWallHeaters": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherItems": null
+      },
+      "kitchen": {
+        "microwave": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "tumbleDryer": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "cooker": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "washingMachine": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "hob": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "refrigeratorFridgeFreezer": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "freezer": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "dishwasher": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "extractorHood": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "ovenGrill": {
+          "fittedOrFreestanding": {
+            "fittedOrFreestanding": "Fitted"
+          },
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherItems": null
+      },
+      "bathroom": {
+        "showerCurtain": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bath": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bathroomMirror": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "showerFittingForBath": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "soapToothbrushHolders": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "toiletRollHolders": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "separateShowersAndFittings": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bathroomCabinet": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "taps": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "towelRail": {
+          "isIncludedExcludedOrNone": "Included"
+        }
+      },
+      "carpets": {
+        "bedroom2": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "livingRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom1": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "kitchen": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "diningRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "hallStairsLanding": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom3": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherRooms": null
+      },
+      "curtainsAndCurtainRails": {
+        "curtainsBlinds": {
+          "bedroom3": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "bedroom2": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "bedroom1": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "hallStairsLanding": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "livingRoom": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "diningRoom": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "kitchen": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "otherRooms": null
+        },
+        "curtainRailsPolesPelmets": {
+          "bedroom3": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "bedroom2": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "bedroom1": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "hallStairsLanding": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "livingRoom": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "diningRoom": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "kitchen": {
+            "isIncludedExcludedOrNone": "Included"
+          },
+          "otherRooms": null
+        }
+      },
+      "lightFittings": {
+        "bedroom2": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "livingRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom1": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom3": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "kitchen": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "hallStairsLanding": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "diningRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherRooms": null
+      },
+      "fittedUnits": {
+        "bedroom1": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "livingRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "hallStairsLanding": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "kitchen": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom2": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "diningRoom": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "bedroom3": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherRooms": null
+      },
+      "outdoorArea": {
+        "rotaryLine": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "gardenShed": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "waterButt": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "clothesLine": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "greenhouse": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "dustbins": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "gardenFurniture": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "gardenOrnaments": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "outdoorHeater": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "barbecue": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "treesPlantsShrubs": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "outdoorLights": {
+          "isIncludedExcludedOrNone": "Included"
+        },
+        "otherItems": null
+      },
+      "televisionAndTelephone": {
+        "telephoneReceivers": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "radioAerial": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "televisionAerial": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "satelliteDish": {
+          "isIncludedExcludedOrNone": "Excluded"
+        }
+      },
+      "stockOfFuel": {
+        "wood": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "lpg": {
+          "isIncludedExcludedOrNone": "Excluded"
+        },
+        "oil": {
+          "isIncludedExcludedOrNone": "Excluded"
+        }
+      },
+      "otherItems": {
+        "otherItems": null
+      },
+      "confirmationOfAccuracy": {}
+    }
+  }
+}
