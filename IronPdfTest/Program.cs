@@ -5,10 +5,11 @@ using System.Text.Json.Nodes;
 
 License.LicenseKey = "IRONSUITE.FABIO.QUEIROZ.LMS.COM.1891-DD81795029-GZGAQA75RIRF3P-Y3EFZR5NHWIP-XUCFUOTLDAGT-BBO2GZHJGUMC-O54GUGY2DIER-OXQQNM557Q2Y-TLW56V-TLPKLMMHIO2QEA-DEPLOYMENT.TRIAL-63IXYB.TRIAL.EXPIRES.08.OCT.2025";
 
-// fillable pdf file
-var fillablePdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Sample-Fillable-PDF.pdf");
+var editableTA10Pdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-editable-form-sample.pdf");
 
-EditablePdfFormFiller.FillForm(fillablePdf);
+// editable pdf file
+var editablePdfSample = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Sample-Fillable-PDF.pdf");
+EditablePdfFormFiller.FillAndLockForm(editablePdfSample);
 
 // static text pdf file
 var pdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-3e-2013-specimen-extract.pdf");
