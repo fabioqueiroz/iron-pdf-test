@@ -1,4 +1,8 @@
-﻿namespace IronPdfTest.FormFillers;
+﻿using IronSoftware.Forms;
+using System.Drawing;
+using System.Text.RegularExpressions;
+
+namespace IronPdfTest.FormFillers;
 
 internal class EditablePdfFormFiller
 {
@@ -23,5 +27,48 @@ internal class EditablePdfFormFiller
         pdfReloaded.SaveAs("Sample_Filled.pdf");
 
         return pdfReloaded.BinaryData;
+    }
+
+    internal static byte[] FillAndLockTA10Form(PdfDocument pdf)
+    {
+        pdf.Form.SingleOrDefault(x => x.Name == "Address of property")!.Value = "29A Lushington Road \nNW10 5UX";
+
+        FillPostcode(pdf, "NW10 5UX");
+
+        MemoryStream pdfAsStream = pdf.Stream;
+        byte[] pdfAsByte = pdf.BinaryData;
+
+        pdfAsStream.Position = 0;
+        var pdfReloaded = new PdfDocument(pdfAsByte);
+
+        pdfReloaded.Flatten();
+
+        // for testing purposes, save the locked PDF to disk
+        pdfReloaded.SaveAs("TA10_Filled_Editable_Sample.pdf");
+
+        return pdfReloaded.BinaryData;
+    }
+
+    private static void FillPostcode(PdfDocument pdf, string postcode, int fontSize = 16)
+    {
+        var chars = postcode.Trim().ToUpper().ToCharArray();
+
+        var postcodeFields = pdf.Form
+            .Where(f => Regex.IsMatch(f.Name, @"^Postcode\s+\d+$"))
+            .Select(f => new
+            {
+                Field = f,
+                Index = int.Parse(Regex.Match(f.Name, @"\d+").Value)
+            })
+            .OrderBy(x => x.Index)
+            .ToList();
+
+        for (int i = 0; i < postcodeFields.Count && i < chars.Length; i++)
+        {
+            var field = postcodeFields[i].Field;
+            field.Value = chars[i].ToString();
+
+            field.SetDefaultFont("Arial", fontSize, Color.Black);
+        }
     }
 }
