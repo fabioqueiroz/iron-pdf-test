@@ -16,11 +16,12 @@ var fieldMappings = JsonSerializer.Deserialize<Dictionary<string, PdfFieldMappin
 TA10PdfFormFiller.FillForm(pdf, transactionFormData!, fieldMappings!);
 
 // editable pdf file
-var editableTA10Pdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-editable-form-sample.pdf");
+//var editableTA10Pdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-editable-form-sample.pdf"); //"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-base-test.pdf"
+var editableTA10Pdf = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\TA10-base-test.pdf");
 EditablePdfFormFiller.FillAndLockTA10Form(editableTA10Pdf);
 
-var editablePdfSample = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Sample-Fillable-PDF.pdf");
-EditablePdfFormFiller.FillAndLockForm(editablePdfSample);
+//var editablePdfSample = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Sample-Fillable-PDF.pdf");
+//EditablePdfFormFiller.FillAndLockForm(editablePdfSample);
 
 //var test1 = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Manual-No-Match-Free-Text-Apr-25.pdf");
 //var test2 = PdfDocument.FromFile(@"C:\Dev\Repos\IronPdfTest\IronPdfTest\Files\Manual-Referral-Check-Apr-25.pdf");
